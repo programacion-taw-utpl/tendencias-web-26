@@ -21,6 +21,11 @@ frontend/dist/
 # =========================
 .env
 .env.*
+# =========================
+# PERMITIR env del frontend (no sensibles)
+# =========================
+!frontend/.env.development
+!frontend/.env.production
 
 # =========================
 # Sistema operativo
