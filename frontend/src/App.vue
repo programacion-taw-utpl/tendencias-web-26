@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const API = 'http://localhost:8000'
+const API = import.meta.env.VITE_API_URL
 
 const tesis = ref([])
 const avances = ref([])

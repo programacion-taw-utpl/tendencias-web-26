@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite"
+    "dev": "vite --mode development",
+    "prod": "vite --host 0.0.0.0 --mode production"
   },
   "dependencies": {
     "vue": "^3.4.0",
